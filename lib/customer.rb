@@ -13,4 +13,15 @@ class Customer
     @@all
   end
 
+  def new_meal
+
+  end
+
+  def meals
+
+  end
+
+  def waiters
+
+  end
 end
