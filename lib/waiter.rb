@@ -14,4 +14,16 @@ class Waiter
     @@all
   end
 
+  def new_meal(customer, total, tip)
+    meal = Meal.new(self, customer, total, tip)
+  end
+
+  def meals
+
+  end
+
+  def best_tipper
+
+  end
+
 end
